@@ -7,7 +7,7 @@ This section provides the code to handle several aspects:
 
 **Note**: If you just want to experiment without runnnig the entire pipeline, use our web app to generate an weakly-annotated corpus. (The WikiData and Wikipedia dumps were downloaded in Feburary 2024.)
 
-Our web app is available at: [https://ontowiki.misit-augsburg.de/](https://ontowiki.misit-augsburg.de/)
+Our web app is available at: [https://ontocorpus.misit-augsburg.de/](https://ontocorpus.misit-augsburg.de/)
 <kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/OntoCorpus_Screenshot.png" width="600"></kbd>
 
 ## How to use

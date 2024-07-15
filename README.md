@@ -14,7 +14,7 @@ The repository covers two key subfolders:
   * Evaluate the classical, trained model on external datasets.
 
 ## Corpus Synthesis
-**Note**: If you want to create your own, weakly-annotated corpus, feel free to use our web app at: [https://ontowiki.misit-augsburg.de/](https://ontowiki.misit-augsburg.de/)
+**Note**: If you want to create your own, weakly-annotated corpus, feel free to use our web app at: [https://ontocorpus.misit-augsburg.de/](https://ontocorpus.misit-augsburg.de/)
 
 <kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/OntoCorpus_Screenshot.png" width="350"></kbd>
 
