@@ -1,4 +1,4 @@
-# Synthesis of Weakly-annotated corpus
+# Synthesis of Weakly-annotated Corpus
 
 This section provides the code to handle several aspects:
 - [Once] Downloading and parsing of Wikipedia and WikiData dumps from the official server.
