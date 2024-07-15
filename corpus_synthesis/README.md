@@ -3,7 +3,7 @@
 This section provides the code to handle several aspects:
 - [Once] Downloading and parsing of Wikipedia and WikiData dumps from the official server.
 - [Once] Parsing and linking of Wikipedia pages and WikiData entities.
-- [Repeated] Synthesis of an weakly-annotated text corpus defined by a WikiData SPARQL query. The query is handled by the [official endpoint](https://query.wikidata.org/).
+- [Repeated] Synthesis of a weakly-annotated text corpus defined by a WikiData SPARQL query. The query is handled by the [official endpoint](https://query.wikidata.org/).
 
 **Note**: If you just want to experiment without runnnig the entire pipeline, use our web app to generate an weakly-annotated corpus. (The WikiData and Wikipedia dumps were downloaded in Feburary 2024.)
 Our web app is available at: [https://ontowiki.misit-augsburg.de/](https://ontowiki.misit-augsburg.de/)
