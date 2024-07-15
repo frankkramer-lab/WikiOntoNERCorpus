@@ -32,6 +32,16 @@ The ATC corpora from the paper can be found here:
 | ATC         | 0.8                | [Download](https://myweb.rz.uni-augsburg.de/~freijoha/WikiOntoNERCorpus/ATC/ATC_0.8.jsonl)  |
 | ATC         | 1.0                | [Download](https://myweb.rz.uni-augsburg.de/~freijoha/WikiOntoNERCorpus/ATC/ATC_1.0.jsonl)  |
 
+The following SPARQL query was used for the corpus synthesis:
+```
+# Anything that has an assigned ATC code
+SELECT ?item
+WHERE
+{
+?item wdt:P267 ?atccode .
+}
+```
+
 ## Contact
 If you have any question or need additional assets, feel free to open an issue or contact the first author, Johann Frei, via email at: firstname.lastname@informatik.uni-augsburg.de
 
