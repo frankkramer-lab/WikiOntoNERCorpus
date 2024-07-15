@@ -16,9 +16,9 @@ The repository covers two key subfolders:
 ## Corpus Synthesis
 **Note**: If you want to create your own, weakly-annotated corpus, feel free to use our web app at: [https://ontowiki.misit-augsburg.de/](https://ontowiki.misit-augsburg.de/)
 
-<kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/OntoCorpus_Screenshot.png" width="600"></kbd>
+<kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/OntoCorpus_Screenshot.png" width="350"></kbd>
 
-## Existing Assets:
+## Existing Assets
 The ATC corpora from the paper can be found here:
 
 | Label Class | Loss Scaling (unk) | Link                                                                                        |
@@ -41,6 +41,10 @@ WHERE
 ?item wdt:P267 ?atccode .
 }
 ```
+
+## Results
+Our results from the paper:
+<kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/results.png" width="600"></kbd>
 
 ## Contact
 If you have any question or need additional assets, feel free to open an issue or contact the first author, Johann Frei, via email at: firstname.lastname@informatik.uni-augsburg.de
