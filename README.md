@@ -16,7 +16,7 @@ The repository covers two key subfolders:
 ## Corpus Synthesis
 **Note**: If you want to create your own, weakly-annotated corpus, feel free to use our web app at: [https://ontocorpus.misit-augsburg.de/](https://ontocorpus.misit-augsburg.de/)
 
-<kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/OntoCorpus_Screenshot.png" width="350"></kbd>
+<kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/OntoCorpus_Screenshot.png" width="600"></kbd>
 
 ## Existing Assets
 The ATC corpora from the paper can be found here:
