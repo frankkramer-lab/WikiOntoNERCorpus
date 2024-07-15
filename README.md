@@ -43,7 +43,7 @@ WHERE
 ```
 
 ## Results
-Our results from the paper:
+Our results from the paper:\
 <kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/results.png" width="600"></kbd>
 
 ## Contact
