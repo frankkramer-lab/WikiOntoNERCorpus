@@ -1,0 +1,12 @@
+spacy[cuda11x,transformers,lookups]
+tqdm
+transformers
+datasets
+accelerate
+evaluate
+seqeval
+dseqmap4nlp
+bratevalwrapper4nlp
+scikit-learn
+numpy
+pandas

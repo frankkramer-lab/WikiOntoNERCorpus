@@ -1,0 +1,72 @@
+[
+    {
+        "session_name": "ATC_0.01",
+        "dataset_file": "ATC_de.jsonl",
+        "model_path": "uklfr/gottbert-base",
+        "learning_rate": 5e-5,
+        "epochs": 3,
+        "batch_size": 32,
+        "unknown_loss_scaling": 0.01,
+        "label_loss_scaling": "balanced"
+    },
+    {
+        "session_name": "ATC_0.05",
+        "dataset_file": "ATC_de.jsonl",
+        "model_path": "uklfr/gottbert-base",
+        "learning_rate": 5e-5,
+        "epochs": 3,
+        "batch_size": 32,
+        "unknown_loss_scaling": 0.05,
+        "label_loss_scaling": "balanced"
+    },
+    {
+        "session_name": "ATC_0.1",
+        "dataset_file": "ATC_de.jsonl",
+        "model_path": "uklfr/gottbert-base",
+        "learning_rate": 5e-5,
+        "epochs": 3,
+        "batch_size": 32,
+        "unknown_loss_scaling": 0.1,
+        "label_loss_scaling": "balanced"
+    },
+    {
+        "session_name": "ATC_0.2",
+        "dataset_file": "ATC_de.jsonl",
+        "model_path": "uklfr/gottbert-base",
+        "learning_rate": 5e-5,
+        "epochs": 3,
+        "batch_size": 32,
+        "unknown_loss_scaling": 0.2,
+        "label_loss_scaling": "balanced"
+    },
+    {
+        "session_name": "ATC_0.5",
+        "dataset_file": "ATC_de.jsonl",
+        "model_path": "uklfr/gottbert-base",
+        "learning_rate": 5e-5,
+        "epochs": 3,
+        "batch_size": 32,
+        "unknown_loss_scaling": 0.5,
+        "label_loss_scaling": "balanced"
+    },
+    {
+        "session_name": "ATC_0.8",
+        "dataset_file": "ATC_de.jsonl",
+        "model_path": "uklfr/gottbert-base",
+        "learning_rate": 5e-5,
+        "epochs": 3,
+        "batch_size": 32,
+        "unknown_loss_scaling": 0.8,
+        "label_loss_scaling": "balanced"
+    },
+    {
+        "session_name": "ATC_1.0",
+        "dataset_file": "ATC_de.jsonl",
+        "model_path": "uklfr/gottbert-base",
+        "learning_rate": 5e-5,
+        "epochs": 3,
+        "batch_size": 32,
+        "unknown_loss_scaling": 1.0,
+        "label_loss_scaling": "balanced"
+    }
+]

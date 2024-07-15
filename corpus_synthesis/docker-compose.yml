@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  mongo-wiki:
+    image: mongo:7
+    container_name: wiki_database
+    command: --wiredTigerCacheSizeGB 8.0
+    #ports:
+    #  - 127.0.0.1:27017:27017
+    environment:
+      - "MONGO_INITDB_ROOT_USERNAME=wiki_user"
+      - "MONGO_INITDB_ROOT_PASSWORD=wiki_pass"
+    volumes:
+      - ./mongo-data:/data/db
+    restart: unless-stopped
+
+  wiki-wtf:
+    build:
+      context: ./wiki_wtf
+    image: wiki-wtf:latest
+    container_name: wiki_parser
+    #ports:
+    #  # Map ports from SERVER_PORT to SERVER_PORT+(N_WORKERS-1)
+    #   - 127.0.0.1:3000-3015:3000-3015
+    environment:
+      - "SERVER_PORT=3000"
+      - "N_WORKERS=${N_WORKERS:-8}"
+    restart: unless-stopped
