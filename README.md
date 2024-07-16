@@ -4,7 +4,7 @@ This repository contains the files and resources of our paper `Creating Ontology
 
 ## Repository Structure
 The repository covers two key subfolders:
-- `corpus_synthesis` includes the documentation, code and scipt examples to:
+- `corpus_synthesis` includes the documentation, code and script examples to:
   * Download, parse, and link Wikipedia and WikiData datasets.
   * Generate the synthesized, weakly-annotated dataset for given SPARQL-defined label classes.
 - `named_entity_recognition` includes the code to:
@@ -47,7 +47,7 @@ Our results from the paper:\
 <kbd><img src="https://github.com/frankkramer-lab/WikiOntoNERCorpus/blob/main/assets/results.png" width="600"></kbd>
 
 ## Contact
-If you have any question or need additional assets, feel free to open an issue or contact the first author, Johann Frei, via email at: firstname.lastname@informatik.uni-augsburg.de
+If you have any questions or need additional assets, feel free to open an issue or contact the first author, Johann Frei, via email at: firstname.lastname@informatik.uni-augsburg.de
 
 ## Citation
 TBA / to appear / TODO
