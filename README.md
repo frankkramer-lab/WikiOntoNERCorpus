@@ -2,6 +2,8 @@
 
 This repository contains the files and resources of our paper `Creating Ontology-annotated Corpora from Wikipedia for Medical Named-entity Recognition` for the ACL 2024 BioNLP workshop.
 
+See the paper at: https://aclanthology.org/2024.bionlp-1.47/
+
 ## Repository Structure
 The repository covers two key subfolders:
 - `corpus_synthesis` includes the documentation, code and script examples to:
@@ -50,6 +52,24 @@ Our results from the paper:\
 If you have any questions or need additional assets, feel free to open an issue or contact the first author, Johann Frei, via email at: firstname.lastname@informatik.uni-augsburg.de
 
 ## Citation
-TBA / to appear / TODO
-
-Frei and Kramer. 2024. Creating Ontology-annotated Corpora from Wikipedia for Medical Named-entity Recognition. In Proceedings of the BIONLP and Shared Tasks Workshop 2024, Bangkok, Thailand. Association for Computational Linguistics.
+Cite the work with the following BibTex citation:
+```
+@inproceedings{frei-kramer-2024-creating,
+    title = "Creating Ontology-annotated Corpora from {W}ikipedia for Medical Named-entity Recognition",
+    author = "Frei, Johann  and
+      Kramer, Frank",
+    editor = "Demner-Fushman, Dina  and
+      Ananiadou, Sophia  and
+      Miwa, Makoto  and
+      Roberts, Kirk  and
+      Tsujii, Junichi",
+    booktitle = "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.bionlp-1.47",
+    pages = "570--579",
+    abstract = "Acquiring annotated corpora for medical NLP is challenging due to legal and privacy constraints and costly annotation efforts, and using annotated public datasets may do not align well to the desired target application in terms of annotation style or language. We investigate the approach of utilizing Wikipedia and WikiData jointly to acquire an unsupervised annotated corpus for named-entity recognition (NER). By controlling the annotation ruleset through WikiData{'}s ontology, we extract custom-defined annotations and dynamically impute weak annotations by an adaptive loss scaling. Our validation on German medication detection datasets yields competitive results. The entire pipeline only relies on open models and data resources, enabling reproducibility and open sharing of models and corpora. All relevant assets are shared on GitHub.",
+}
+```
